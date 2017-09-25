@@ -6,7 +6,7 @@ The objective of this project is to train a Fully Convolutional Neural Net that 
 
 # File structure
 - **ReadMe.md**: This file
-- **Semantic_Segmentation.ipynb**: The main ipython notebookk that contains the implementation and training details.
+- **Semantic_Segmentation.ipynb**: The main ipython notebook that contains the implementation and training details.
 - **main.py**: The above ipython notebook in python script form.
 - **helper.py**: Contains some helper functions
 - **project_tests.py**: Unit tests
@@ -36,7 +36,9 @@ In addition to the above implementation, an additional data augmentation techniq
 
 The neural network was trained over 35 epochs. Mean IOU was used as the accuracy metric and computed after every epoch.  At the end of 35 epochs the training and validation accuracy was about 84%. Attached are a few images showing the inference results on the test data.
 ![Result1](um_000003.png)
+
 ![Result2](uu_000040.png)
+
 ![Result3](umm_000055.png)
 
 
